@@ -40,3 +40,49 @@ footer {
     background: #f8f9fa; /* Light gray background similar to navbar */
     padding: 20px 0;
 }
+
+/* Contact details styles */
+.row.mb-4 {
+    margin-bottom: 30px !important; /* Increase spacing between contact details */
+}
+
+.row.mb-4 i {
+    color: #007BFF; /* Use a subtle blue color for the icons */
+    margin-right: 10px;
+}
+
+.container-fluid {
+    max-width: 80% !important;
+    margin: auto;
+}
+
+.row.mb-4 {
+    margin-bottom: 40px !important;
+}
+
+
+
+
+
+/* Styles for LinkedIn and GitHub icons in contact section */
+.fab.fa-linkedin:hover, .fab.fa-github-square:hover {
+    color: #007BFF; /* Slight blue color on hover */
+    transform: scale(1.1); /* Slightly enlarging the icon on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.fab.fa-linkedin, .fab.fa-github-square {
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for color and scale */
+}
+
+/* Styling for the clickable text in the contact details */
+.col-10.text-left.align-middle a {
+    color: #007BFF; /* Dark gray color for the text */
+    text-decoration: none; /* Removing the underline */
+    transition: color 0.3s; /* Smooth transition for color */
+}
+
+.col-10.text-left.align-middle a:hover {
+    color: #007BFF; /* Slight blue color on hover for a subtle effect */
+    text-decoration: underline; /* Underline the text on hover */
+}
