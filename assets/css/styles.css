@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 }
 
 main {
@@ -85,4 +86,31 @@ footer {
 .col-10.text-left.align-middle a:hover {
     color: #007BFF; /* Slight blue color on hover for a subtle effect */
     text-decoration: underline; /* Underline the text on hover */
+}
+
+
+/* Styles for the profile picture */
+.profile-pic-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+}
+
+/* Styles for the quotes */
+.quotes-container blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.quotes-container blockquote footer {
+    text-align: right;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
 }
