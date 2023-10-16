@@ -1,6 +1,10 @@
 
-.container {
-    max-width: 50% !important;
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 50% !important;
+    }
 }
 
 /* Media query for tablets and mobile devices */
