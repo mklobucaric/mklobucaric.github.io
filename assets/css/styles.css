@@ -150,3 +150,12 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+
+
+/* Styling for language flags in the navigation bar */
+#germanFlag, #britishFlag {
+    height: 24px;
+    width: 36px;
+    margin-left: 10px;
+}
