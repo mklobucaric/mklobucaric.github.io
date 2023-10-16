@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -34,7 +35,7 @@
     </nav>
 </header>
 <main class="container mt-5 pt-5">
-    <section class="mb-5">
+    <section data-aos="fade-up" class="mb-5">
         <h2>PERSONAL PROJECTS</h2>
         <div class="mt-4">
             <h4>Projects 2018 – 2023</h4>
@@ -65,5 +66,9 @@
     </div>
 
     </footer>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

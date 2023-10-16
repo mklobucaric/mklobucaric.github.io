@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -34,7 +35,7 @@
         </nav>
     </header>
     <main class="container mt-5 pt-5">
-        <section class="mb-5">
+        <section data-aos="fade-up" class="mb-5">
         <h2>EDUCATION</h1>
             <div class="mt-4">
 
@@ -62,7 +63,7 @@
 
 
         
-<section class="mb-5">
+<section data-aos="fade-up" class="mb-5">
     <h2>INFORMAL EDUCATION:</h2>
     <ul class="mt-2">
         <li><strong>Singularity University</strong><br>
@@ -73,8 +74,7 @@
             <ul class="mt-2">
                 <li>Dart and Flutter 3 Bootcamp: Build Apps for Any Screen!<br>
                 <li>OpenAI Python API Bootcamp: Learn to use AI, GPT, and more!</li>
-                <li>Python for Data Structures, Algorithms</li>
-                <li>Python for Deep Learning with Python Bootcamp</li>
+                <li>Python for Deep Learning</li>
                 <li>The complete SQL Bootcamp: Go from Zero to Hero</li>
                 <li>Learning pipeline(current educations): LangCahin, Google Cloud, Tensorflow + Keras</li>
             </ul>        
@@ -87,6 +87,7 @@
                 <li>Python for Machine Learning & Data Science Masterclass</li>
                     
                 
+
             </ul> 
             <em>2021:</em>  
                 <ul class="mt-2">
@@ -112,8 +113,8 @@
             </ul>  
             </ul>
         </li>
-        <li><strong>Educational courses completed within the regional competence center:</strong>
-            <ul class="mt-2">
+        <li data-aos="fade-up"><strong>Educational courses completed within the regional competence center:</strong>
+            <ul data-aos="fade-up" class="mt-2">
                 <li>Universal Robots online education (e-Series: Core Track, Pro Track, Application Track)</li>
                 <li>Education on didactic equipment for renewable energy sources (Gunt, Hera, Lexsolar) and automation (Lucas Nuelle)</li>
                 <li>Leadership education courses - in person:
@@ -143,7 +144,7 @@
     </ul>
 </section>
 
-<section class="mb-5">
+<section data-aos="fade-up" class="mb-5">
     <h2>MEMBERSHIP AND LICENSES:</h2>
     <ul class="mt-2">
         <li>Croatian Chamber of Electrical Engineers (Membership status: on hold)<br>
@@ -153,7 +154,7 @@
     </ul>
 </section>
 
-<section class="mb-5">
+<section data-aos="fade-up" class="mb-5">
     <h2>LANGUAGES:</h2>
     <ul class="mt-2">
         <li><em>Croatian:</em> Native proficiency</li>
@@ -162,7 +163,7 @@
     </ul>
 </section>
 
-<section class="mb-5">
+<section data-aos="fade-up" class="mb-5">
     <h2>TECHNICAL SKILLS & TECHNOLOGIES:</h2>
     <ul class="mt-2">
         <li><em>Software & Platforms:</em> VS Code, Jupyter Notebook, Git/Github</li>
@@ -184,5 +185,9 @@
         </div>
     
         </footer>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>
