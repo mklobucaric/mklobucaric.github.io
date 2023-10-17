@@ -1,16 +1,21 @@
-
-
-
-@media (min-width: 768px) {
+/* Media query for desktop devices */
+@media (min-width: 1025px) {
     .container {
         max-width: 40% !important;
     }
 }
 
-/* Media query for tablets and mobile devices */
-@media (max-width: 768px) {
+/* Media query for tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
     .container {
-        max-width: 100%; /* or you can set it to 90% or any other value that looks good */
+        max-width: 70%; /* Adjust this value based on your design preference for tablets */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
     }
 }
 
