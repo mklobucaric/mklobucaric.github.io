@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    // Language switching logic
     $("#germanFlag, #de").click(function() {
         window.location.href = 'index_de.html';
     });
