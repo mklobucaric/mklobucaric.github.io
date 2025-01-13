@@ -1,65 +1,68 @@
-$(document).ready(function(){
-    $("#germanFlag, #de").click(function() {
-        window.location.href = 'index_de.html';
-    });
+$(document).ready(function () {
+  $("#germanFlag, #de").click(function () {
+    window.location.href = "index_de.html";
+  });
 
-    $("#britishFlag, #en").click(function() {
-        window.location.href = 'index.html';
-    });
+  $("#britishFlag, #en").click(function () {
+    window.location.href = "index.html";
+  });
 
+  $("#germanFlagResume, #ResumeDe").click(function () {
+    window.location.href = "resume_de.html";
+  });
 
-    $("#germanFlagResume, #ResumeDe").click(function() {
-        window.location.href = 'resume_de.html';
-    });
+  $("#britishFlagResume, #ResumeEn").click(function () {
+    window.location.href = "resume.html";
+  });
 
-    $("#britishFlagResume, #ResumeEn").click(function() {
-        window.location.href = 'resume.html';
-    });
+  $("#germanFlagWork, #workDe").click(function () {
+    window.location.href = "work_de.html";
+  });
 
+  $("#britishFlagWork, #workEn").click(function () {
+    window.location.href = "work.html";
+  });
 
-    $("#germanFlagWork, #workDe").click(function() {
-        window.location.href = 'work_de.html';
-    });
+  $("#germanFlagEducation, #educationDe").click(function () {
+    window.location.href = "education_de.html";
+  });
 
-    $("#britishFlagWork, #workEn").click(function() {
-        window.location.href = 'work.html';
-    });
+  $("#britishFlagEducation, #educationEn").click(function () {
+    window.location.href = "education.html";
+  });
 
+  $("#germanFlagProjects, #projectsDe").click(function () {
+    window.location.href = "projects_de.html";
+  });
 
-    $("#germanFlagEducation, #educationDe").click(function() {
-        window.location.href = 'education_de.html';
-    });
+  $("#britishFlagProjects, #projectsEn").click(function () {
+    window.location.href = "projects.html";
+  });
 
-    $("#britishFlagEducation, #educationEn").click(function() {
-        window.location.href = 'education.html';
-    });
+  $("#germanFlagContact, #contactDe").click(function () {
+    window.location.href = "contact_de.html";
+  });
 
+  $("#britishFlagContact, #contactEn").click(function () {
+    window.location.href = "contact.html";
+  });
 
-    $("#germanFlagProjects, #projectsDe").click(function() {
-        window.location.href = 'projects_de.html';
-    });
+  $("#germanFlagReading, #readingDe").click(function () {
+    window.location.href = "reading_de.html";
+  });
 
-    $("#britishFlagProjects, #projectsEn").click(function() {
-        window.location.href = 'projects.html';
-    });
-
-    $("#germanFlagContact, #contactDe").click(function() {
-        window.location.href = 'contact_de.html';
-    });
-
-    $("#britishFlagContact, #contactEn").click(function() {
-        window.location.href = 'contact.html';
-    });
-
-
-    $("#germanFlagReading, #readingDe").click(function() {
-        window.location.href = 'reading_de.html';
-    });
-
-    $("#britishFlagReading, #readingEn").click(function() {
-        window.location.href = 'reading.html';
-    });
-
-
-
+  $("#britishFlagReading, #readingEn").click(function () {
+    window.location.href = "reading.html";
+  });
 });
+
+function openModal(imgSrc) {
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImage");
+  modal.style.display = "block";
+  modalImg.src = imgSrc;
+}
+
+function closeModal() {
+  document.getElementById("imageModal").style.display = "none";
+}

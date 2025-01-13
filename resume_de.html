@@ -94,8 +94,8 @@
               <strong> Kernleistungen: </strong>
               <ul>
                 <li>
-                  <strong>Softwareentwicklung: </strong>Python, JavaScript
-                  (React), Dart (Flutter)
+                  <strong>Softwareentwicklung: </strong>Python, SQL, JavaScript
+                  (React)
                 </li>
                 <li>
                   <strong>Generative KI: </strong>
@@ -114,7 +114,8 @@
                   </ul>
                 </li>
                 <li>
-                  <strong>Cloud Computing:</strong> Google Cloud Platform.
+                  <strong>Cloud Computing:</strong> Skilled in utilizing the GCP
+                  and AWS.
                 </li>
               </ul>
             </li>
@@ -266,6 +267,29 @@
         <h2>INFORMELLE BILDUNG</h2>
 
         <div class="mt-3 mb-4">
+          <strong>Coursera</strong>
+          <ul class="mt-2">
+            <li>
+              <strong>2024 - DeepLearning.AI: Data Engineering</strong> -
+              Professional Certificate
+              <a
+                href="https://www.coursera.org/account/accomplishments/professional-cert/PG50TZ7A4I4O"
+                target="_blank"
+                >link</a
+              >
+              <div class="certificate-img mt-2">
+                <img
+                  src="assets/image/data_engineering.jpg"
+                  alt="Data Engineering Certificate"
+                  class="img-fluid certificate-thumbnail"
+                  onclick="openModal(this.src)"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-3 mb-4">
           <strong>Singularity University</strong>
           <ul class="mt-2">
             <li>
@@ -298,6 +322,14 @@
               Open-Source-Modelle mit HuggingFace, LangChain, LlamaIndex,
               Unstrukturierter Daten für LLM-Anwendungen,
               Multi-AI-Agenten-Frameworks
+              <div class="certificate-img mt-2">
+                <img
+                  src="assets/image/deeplearning_1.jpg"
+                  alt="Deep Learning Certificate"
+                  class="img-fluid certificate-thumbnail"
+                  onclick="openModal(this.src)"
+                />
+              </div>
             </li>
           </ul>
         </div>
@@ -365,16 +397,16 @@
         <h2>TECHNISCHE FÄHIGKEITEN &amp; TECHNOLOGIEN:</h2>
         <ul class="mt-2">
           <li>
-            <em>Entwicklungsumgebungen &amp; Versionskontrolle:</em>Visual
-            Studio Code, Jupyter Notebooks, Git/Github
+            <em>Entwicklungsumgebungen &amp; Versionskontrolle: </em>Visual
+            Studio Code, Cursor, Jupyter Notebook, Git/Github, Claude Sonnet 3.5
           </li>
           <li>
             <em>Cloud Computing &amp; Containerisierung:</em> Google Cloud
-            Platform(GCP), Firebase, Vertex AI, Docker
+            Platform(GCP), AWS, Firebase, Terraform, Docker
           </li>
           <li>
             <em>Programmiersprachen: </em> Python, Dart, SQL, HTML, CSS,
-            JavaScript, Embedded C++
+            JavaScript, Embedded C++, Cypher
           </li>
           <li>
             <em>KI/LLMs, Platformen &amp; Frameworks:</em> ChatGPT, Gemini,
@@ -382,8 +414,12 @@
             Multi-AI-Agenten-Frameworks, LangGraph, LangSmith
           </li>
           <li>
-            <em>Datan &amp; Vektorbasen:</em> Firestore, SQLite, PostgreSQL,
-            ChromaDB, Weaviate
+            <em>Datan &amp; Vektorbasen:</em> Firestore, SQLite, Weaviate,
+            ChromaDB, Neo4j
+          </li>
+          <li>
+            <em>Daten-engineering:</em> ETL-Pipelines (Batch und Streaming),
+            Prefect, GCP Workflows, Airflow, dbt, great expectations
           </li>
           <li>
             <em>Data Science &amp; ML:</em> NumPy, Pandas, Matplotlib, Seaborn,
@@ -391,7 +427,7 @@
           </li>
           <li>
             <em>Frontend- &amp; Backend-Entwicklungstechnologien: </em>FastAPI,
-            Flask, React, Flutter, Bootstrap
+            Flask, React (Joy UI), Flutter, Bootstrap
           </li>
           <li>
             <em>APIs &amp; Integrationen:</em> ChatGPT, Claude, Gemini, REST
@@ -438,5 +474,9 @@
     <script>
       AOS.init();
     </script>
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
   </body>
 </html>

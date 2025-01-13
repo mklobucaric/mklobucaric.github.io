@@ -23,6 +23,11 @@
   </head>
 
   <body>
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
@@ -126,10 +131,34 @@
         <h2>INFORMAL EDUCATION:</h2>
         <ul class="mt-2">
           <li>
+            <strong>Coursera</strong><br />
+            <ul class="mt-2">
+              <li>
+                <strong>2024 - DeepLearning.AI: Data Engineering</strong> -
+                Professional Certificate
+                <a
+                  href="https://www.coursera.org/account/accomplishments/professional-cert/PG50TZ7A4I4O"
+                  target="_blank"
+                  >link</a
+                >
+                <div class="certificate-img mt-2">
+                  <img
+                    src="assets/image/data_engineering.jpg"
+                    alt="Data Engineering Certificate"
+                    class="img-fluid certificate-thumbnail"
+                    onclick="openModal(this.src)"
+                  />
+                </div>
+              </li>
+            </ul>
+          </li>
+          <br />
+          <li>
             <strong>Singularity University</strong><br />
             Exponential Foundations Series – Online education about upcoming
             technologies and potentials
           </li>
+          <br />
           <li><strong>Udemy courses:</strong></li>
           <ul class="mt-2">
             <li>LLM Fine Tuning on OpenAI</li>
@@ -153,20 +182,28 @@
             <li>Designing for 3D Printing with Fusion 360</li>
             <li>The complete AutoCAD 2018-2020 course</li>
           </ul>
-
+          <br />
           <li><strong>Other online educations:</strong></li>
           <ul class="mt-2"></ul>
           <li>
             Vector Databases, Building and Evaluating Advanced RAG, AI
             Applications with Gradio, Open Source Models with Hugging Face,
             LangChain, LlamaIndex, Unstructured data, Multi-AI agents frameworks
+            <div class="certificate-img mt-2">
+              <img
+                src="assets/image/deeplearning_1.jpg"
+                alt="Deep Learning Certificate"
+                class="img-fluid certificate-thumbnail"
+                onclick="openModal(this.src)"
+              />
+            </div>
           </li>
-
+          <br />
           <li><strong>Google Workshop:</strong></li>
           <ul class="mt-2">
             <li>The Fundamentals of Digital Marketing</li>
           </ul>
-
+          <br />
           <li data-aos="fade-up">
             <strong
               >Educational courses completed within the regional competence
@@ -213,15 +250,15 @@
         <ul class="mt-2">
           <li>
             <em>Development Environments &amp; Version Control:</em> Visual
-            Studio Code, Jupyter Notebook, Git/Github
+            Studio Code, Cursor, Jupyter Notebook, Git/Github, Claude Sonnet 3.5
           </li>
           <li>
             <em>Cloud Computing &amp; Containerization:</em> Google Cloud
-            Platform(GCP), Firebase, Vertex AI, Docker
+            Platform(GCP), AWS, Firebase, Terraform, Docker
           </li>
           <li>
             <em>Programming Languages:</em> Python, Dart, SQL, HTML, CSS,
-            JavaScript, Embedded C++
+            JavaScript, Embedded C++, Cypher
           </li>
           <li>
             <em>AI/LLMs, Platforms &amp; Frameworks:</em> ChatGPT, Gemini, Open
@@ -230,15 +267,19 @@
           </li>
           <li>
             <em>Data &amp; Vectorbases:</em> Firestore, SQLite, PostgreSQL,
-            ChromaDB, Weaviate
+            Weaviate, ChromaDB, Neo4j
+          </li>
+          <li>
+            <em>Data Engineering:</em> ETL pipelines (batch and streaming),
+            Prefect, GCP Workflows, Airflow, dbt, great expectations
           </li>
           <li>
             <em>Data Science &amp; ML:</em> NumPy, Pandas, Matplotlib, Seaborn,
             SciKit-Learn, PyTorch
           </li>
           <li>
-            <em>Frontend &amp; Backend Development Technologies:</em>FastAPI,
-            Flask, React, Flutter, Bootstrap
+            <em>Frontend &amp; Backend Development Technologies:</em> FastAPI,
+            Flask, React (Joy UI), Flutter, Bootstrap
           </li>
 
           <li>
