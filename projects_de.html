@@ -73,6 +73,100 @@
       </nav>
     </header>
     <main class="container mt-5 pt-5">
+      <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" />
+      </div>
+      <section data-aos="fade-up" class="mb-5">
+        <h2>BERUFLICHE PROJEKTE</h2>
+        <div class="mt-4">
+          <ul>
+            <li>
+              <strong
+                >2024 - Webbasierte Plattform/KI-gestützter
+                Energie-Assistent</strong
+              >
+              <p>
+                Überblick: Entwicklung einer umfassenden Cloud-Plattform, die
+                intelligente Unterstützung für energieeffiziente Sanierung und
+                Beratung im Bereich erneuerbarer Energien bietet. Das System
+                kombiniert eine moderne Webanwendung mit fortschrittlicher
+                KI-Technologie und ausgereiften Datenverarbeitungsfunktionen.
+              </p>
+              <ul class="mt-2">
+                <li>
+                  <strong>Hauptkomponenten:</strong>
+                  <ul>
+                    <li>
+                      Moderne Webanwendung mit responsivem Design und intuitiver
+                      Benutzeroberfläche
+                    </li>
+                    <li>
+                      Fortschrittliches KI-Beratungssystem mit
+                      LangGraph/LangChain für intelligente Konversationen
+                    </li>
+                    <li>
+                      Ausgereifte ETL-Pipelines zur Verarbeitung von
+                      Dokumentationen und Förderprogrammen
+                    </li>
+                    <li>
+                      Cloud-native Architektur auf Basis der Google Cloud
+                      Platform
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Technische Highlights:</strong>
+                  <ul>
+                    <li>Frontend: React mit Joy UI-Komponenten</li>
+                    <li>Backend: FastAPI mit Firebase/Firestore-Integration</li>
+                    <li>
+                      KI-Infrastruktur: Maßgeschneiderter LangGraph-Workflow mit
+                      Vektordatenbank (Weaviate)
+                    </li>
+                    <li>
+                      Datenverarbeitung: Spezialisierte ETL-Pipelines mit
+                      Unstructured.io, Prefect und GCP Workflows
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Technologie-Stack:</strong> Google Cloud Platform
+                  (Cloud Run, Cloud Storage, Secret Manager, Cloud Workflows,
+                  Cloud Functions, Pub/Sub, EventArc), Firebase, Firestore,
+                  Python/FastAPI, React/Joy UI, LangChain-Ökosystem, Weaviate,
+                  Unstructured.io, Integration von OpenAI/Anthropic/Google
+                  LLM-Modellen
+                </li>
+                <li>
+                  <a href="https://techxflow.xyz/index_de.html">Mehr Details</a>
+                </li>
+                <div class="certificate-img mt-2">
+                  <img
+                    src="assets/image/Kilovatko_initial_screen.jpg"
+                    alt="Kilovatko Startbildschirm"
+                    class="img-fluid certificate-thumbnail"
+                    onclick="openModal(this.src)"
+                  />
+                  <img
+                    src="assets/image/Chat_kilovatko.jpg"
+                    alt="Kilovatko Chat-Oberfläche"
+                    class="img-fluid certificate-thumbnail"
+                    onclick="openModal(this.src)"
+                  />
+                  <img
+                    src="assets/image/Kilovatko_mobile.png"
+                    alt="Kilovatko Mobile Ansicht"
+                    class="img-fluid certificate-thumbnail"
+                    onclick="openModal(this.src)"
+                  />
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <section data-aos="fade-up" class="mb-5">
         <h2>PERSÖNLICHE PROJEKTE</h2>
         <div class="mt-4">

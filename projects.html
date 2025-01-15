@@ -73,6 +73,101 @@
       </nav>
     </header>
     <main class="container mt-5 pt-5">
+      <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" />
+      </div>
+
+      <section data-aos="fade-up" class="mb-5">
+        <h2>PROFESSIONAL PROJECTS</h2>
+        <div class="mt-4">
+          <ul>
+            <li>
+              <strong
+                >2024 - Web-based Platform/AI-Powered Energy Assistant</strong
+              >
+              <p>
+                Overview: Developed a comprehensive cloud platform providing
+                intelligent support for energy-efficient renovation and
+                renewable energy consulting. The system combines a modern web
+                application with advanced AI technology and sophisticated data
+                processing capabilities.
+              </p>
+              <ul class="mt-2">
+                <li>
+                  <strong>Key Components:</strong>
+                  <ul>
+                    <li>
+                      Modern web application with responsive design and
+                      intuitive user interface
+                    </li>
+                    <li>
+                      Advanced AI consulting system using LangGraph/LangChain
+                      for intelligent conversations
+                    </li>
+                    <li>
+                      Sophisticated ETL pipelines for processing documentation
+                      and funding programs
+                    </li>
+                    <li>
+                      Cloud-native architecture leveraging Google Cloud Platform
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Technical Highlights:</strong>
+                  <ul>
+                    <li>Frontend: React with Joy UI components</li>
+                    <li>
+                      Backend: FastAPI with Firebase/Firestore integration
+                    </li>
+                    <li>
+                      AI Infrastructure: Custom LangGraph workflow with vector
+                      database (Weaviate)
+                    </li>
+                    <li>
+                      Data Processing: Specialized ETL pipelines using
+                      Unstructured.io, Prefect and GCP Workflows
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Technology Stack:</strong> Google Cloud Platform
+                  (Cloud Run, Cloud Storage, Secret Manager, Cloud Workflows,
+                  Cloud Functions, Pub/Sub, EventArc), Firebase, Firestore,
+                  Python/ FastAPI, React/Joy UI, LangChain ecosystem, Weaviate,
+                  Unstructured.io, OpenAI/Anthropic/Google LLM models
+                  integration
+                </li>
+                <li>
+                  <a href="https://techxflow.xyz">More Details</a>
+                </li>
+                <div class="certificate-img mt-2">
+                  <img
+                    src="assets/image/Kilovatko_initial_screen.jpg"
+                    alt="Kilovatko Initial Screen"
+                    class="img-fluid certificate-thumbnail"
+                    onclick="openModal(this.src)"
+                  />
+                  <img
+                    src="assets/image/Chat_kilovatko.jpg"
+                    alt="Kilovatko Chat Interface"
+                    class="img-fluid certificate-thumbnail"
+                    onclick="openModal(this.src)"
+                  />
+                  <img
+                    src="assets/image/Kilovatko_mobile.png"
+                    alt="Kilovatko Mobile View"
+                    class="img-fluid certificate-thumbnail"
+                    onclick="openModal(this.src)"
+                  />
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <section data-aos="fade-up" class="mb-5">
         <h2>PERSONAL PROJECTS</h2>
         <div class="mt-4">
@@ -89,6 +184,7 @@
               Through Future's Veil," exploring potential futures. Try the demo
               on my company <a href="https://techxflow.xyz">website</a>.
             </li>
+            <br />
             <li>
               <strong>2023-2024 - Educational Assistant App Study Buddy</strong>
               employs Flutter and Flask/Python to craft an interactive and
@@ -104,30 +200,35 @@
                 Features include user-friendly design, multilingual support, and
                 various user roles (Admin, Subscriber, Guest).
               </li>
+              <br />
               <li>
                 <strong>Technical Highlights:</strong> Backend built with
                 Flask/Python, integrated with Firebase, Google Vision, and GCP
                 Storage. Frontend developed in Flutter, ensuring a seamless
                 cross-platform experience.
               </li>
+              <br />
               <li>
                 <strong>Key Features:</strong> Interactive learning tools,
                 efficient app navigation, real-time educational support, and a
                 secure, modular backend structure for efficient data processing
                 and storage.
               </li>
+              <br />
               <li>
                 <strong>Technology Stack:</strong> Employs technologies like
                 Google Cloud Platform, Firebase Authentication, Firestore,
                 OpenAI API, and ChromaDB, showcasing a diverse and powerful set
                 of skills in app development.
               </li>
+              <br />
               <li>
                 <a href="https://github.com/mklobucaric/studybuddy"
                   >More Details
                 </a>
               </li>
             </ul>
+            <br />
             <li>
               <strong>2024 - Machine learning manual</strong> based on Kaggles
               Titanik dataset. Offers a structured methodology for ML
@@ -139,7 +240,7 @@
                 More Details</a
               >
             </li>
-
+            <br />
             <li>
               <strong
                 >2023 - Flutter application interfacing with OpenAI API</strong
@@ -150,6 +251,7 @@
                 >More Details</a
               >
             </li>
+            <br />
             <li>
               <strong>2019 - Robotic arm management system</strong> utilizing
               Raspberry PI, incorporating a Python-based GUI for command and PI,
@@ -158,24 +260,27 @@
                 More Details</a
               >
             </li>
-
+            <br />
             <li>
               <strong>2020 - 2021 Home Automation:</strong> leveraging the
               ComfortClick server and a mobile application for integrated
               security (DSC) and adaptive heating solutions via KNX (actuators)
               and RS485/Modbus (sensors).
             </li>
+            <br />
             <li>
               <strong>2020 - Raspberry PI-powered webserver</strong> dedicated
               to data acquisition and visualization of environmental parameters
               (temperature, humidity, and PM2.5 and PM 10 particles).
             </li>
+            <br />
             <li>
               <strong>2023 - Personal page</strong>
               <a href="https://github.com/mklobucaric/mklobucaric.github.io"
                 >More Details</a
               >
             </li>
+            <br />
             <li>
               <strong>2024 - Company page</strong>
               <a href="https://github.com/mklobucaric/company-website"

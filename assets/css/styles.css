@@ -192,10 +192,23 @@ img[src="assets/image/eu.svg"] {
   height: auto;
 }
 
-.certificate-thumbnail {
-  max-width: 300px;
+.certificate-img {
+  display: flex;
+  gap: 15px;
+}
+
+.certificate-img .certificate-thumbnail {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease;
+}
+
+/* Specific constraint for the mobile screenshot */
+.certificate-img .certificate-thumbnail[src*="Kilovatko_mobile"] {
+  height: 120px; /* Adjust this value to match the height of other images */
+  width: auto;
 }
 
 .certificate-thumbnail:hover {
