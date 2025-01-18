@@ -206,6 +206,12 @@ img[src="assets/image/eu.svg"] {
 }
 
 /* Specific constraint for the mobile screenshot */
+.certificate-img .certificate-thumbnail[src*="Chat_kilovatko"] {
+  height: 120px; /* Adjust this value to match the height of other images */
+  width: auto;
+}
+
+/* Specific constraint for the mobile screenshot */
 .certificate-img .certificate-thumbnail[src*="Kilovatko_mobile"] {
   height: 120px; /* Adjust this value to match the height of other images */
   width: auto;
