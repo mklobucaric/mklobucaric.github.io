@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -73,155 +73,178 @@
       </nav>
     </header>
     <main class="container mt-5 pt-5">
-      <div id="imageModal" class="modal" onclick="closeModal()">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="modalImage" />
-      </div>
       <section data-aos="fade-up" class="mb-5">
-        <h2>PROFESSIONELLE PROJEKTE (2024–2025)</h2>
-        <p class="text-muted">Entwicklung von produktionsreifen KI-Systemen und strategische KI-Beratung für Unternehmenskunden.</p>
+        <h2>PROFESSIONELLE PROJEKTE (2024–2026)</h2>
+        <p class="text-muted">
+          Eine Auswahl aktueller Kundenprojekte. Ausführliche Fallstudien und
+          Referenzen finden Sie auf der Unternehmenswebsite.
+        </p>
+        <div class="mb-4">
+          <a href="https://techxflow.eu/index_de.html" class="btn btn-primary"
+            >Alle Projekte ansehen → techxflow.eu</a
+          >
+        </div>
 
         <div class="mt-4">
-          <h4>Unternehmensberatung</h4>
+          <h4>KI-Anwendungen &amp; Plattformen</h4>
+          <ul>
+            <li class="mb-4">
+              <strong>KI-Bürgerassistent – Gemeinde Legrad (2026)</strong>
+              <p>
+                Dreisprachiger (HR/HU/EN) Bürgerassistent, der Fragen zu
+                kommunalen Dienstleistungen beantwortet — jede Antwort
+                quellenbelegt und mit dem genauen offiziellen Dokument verlinkt.
+                Einsatz im öffentlichen Sektor, EU-gehostet. RAG, Multi-LLM, GCP.
+              </p>
+            </li>
+            <li class="mb-4">
+              <strong>Fertigungs-BI-Plattform (2026)</strong>
+              <p>
+                Dashboards, die ERP-Daten in Management-Analysen über Produktion,
+                Lager, Vertrieb und Einkauf verwandeln — Drill-down nach
+                Mitarbeiter, Arbeitsauftrag, Produkt und Vorgang, mit
+                automatischer Anomalieerkennung und KPIs für die Führung.
+                Python-Datenpipeline, SQL, interaktive Dashboards.
+              </p>
+            </li>
+            <li class="mb-4">
+              <strong>Energieeffizienz-RAG-Plattform – VIREAS (2024–2025)</strong>
+              <p>
+                Agentisches RAG-System für Beratung zu erneuerbaren Energien und
+                Energieeffizienz für Bürger, entwickelt für eine regionale
+                Energieagentur. FastAPI + LangGraph, Weaviate Hybrid-Suche,
+                Reranking, Multi-LLM-Unterstützung. Enthält eine Prefect
+                ETL-Pipeline und einen MCP-Server für die Claude-Desktop-Integration.
+                <a href="https://vireas.rea-sjever.hr/">Live-Seite</a>
+              </p>
+            </li>
+            <li class="mb-4">
+              <strong>Medizinisches Transkriptionssystem (2025)</strong>
+              <p>
+                Desktop-App für kroatische medizinische Diktate verschiedener
+                Fachrichtungen: Echtzeit-Transkription mit Auto-Typing,
+                Fachvokabular, Vorlagen und globalen Shortcuts — spart Klinikern
+                täglich Stunden an Dokumentation. Gemini AI, GCP-Deployment.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-4">
+          <h4>KI &amp; Geschäftsprozessautomatisierung</h4>
+          <ul>
+            <li class="mb-4">
+              <strong>Automatisierte Angebotserstellung (2026)</strong>
+              <p>
+                Liest eingehende technische Spezifikationen (Excel/PDF),
+                extrahiert automatisch jede Position, ordnet sie einem Produkt und
+                Preis aus dem Katalog des Kunden zu und erstellt ein
+                versandfertiges Angebot — verwandelt stundenlange manuelle Arbeit
+                in Minuten. Confidence-Scoring, Freigabe durch den Menschen,
+                vollständiger Audit-Trail. Entwickelt für die technische Industrie;
+                EU-gehostet. Document AI, Katalog-Matching, LLM.
+              </p>
+            </li>
+            <li class="mb-4">
+              <strong>Stücklisten-Extraktionssystem (2025)</strong>
+              <p>
+                Automatisierte Stücklistenextraktion aus deutschsprachigen
+                Fertigungsdokumenten, mit Multi-Format-Ausgabe (Excel/PDF/JSON).
+                Reduzierte einen 3–4-stündigen manuellen Prozess auf Minuten.
+                Dokumentenextraktion-KI, LLM-Parsing.
+              </p>
+            </li>
+            <li class="mb-4">
+              <strong>Text-to-SQL-Datenabfrage (2025)</strong>
+              <p>
+                Vollständig lokales, Offline-System (keine Daten verlassen das
+                Gelände): Nutzer fragen in natürlicher Sprache, das System erzeugt
+                eine sichere Abfrage über eine lokale Wissensbasis und liefert die
+                Antwort sofort — saubere Tabelle, Diagramm und Excel-Export per
+                Klick, ohne SQL oder Wartezeit auf das Reporting-Team. Entwickelt
+                für die industrielle Fertigung. LangGraph, Open-Source-LLMs, Plotly.
+              </p>
+            </li>
+            <li class="mb-4">
+              <strong>Automatisierte Content-Generierung (2025)</strong>
+              <p>
+                Blog-Automatisierung mit einem 8-Knoten-LangGraph-Workflow und
+                Web-Recherche-Integration, einer eigenen Gemini-Fine-Tuning-Pipeline
+                und einer N8N-Video-Pipeline für TikTok/Reels. LangGraph,
+                Gemini-Fine-Tuning, N8N.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-4">
+          <h4>Web- &amp; Full-Stack-Plattformen</h4>
+          <ul>
+            <li class="mb-4">
+              <strong>Baukoordinierungsplattform (Q4 2025)</strong>
+              <p>
+                Web-App zur Ablösung eines manuellen Excel-Prozesses im Bausektor:
+                koordiniert alle Beteiligten, Verträge und Dokumentation und
+                verfolgt Baufortschritt und Finanzen, mit Excel/PDF-Export. Senkte
+                die Datensatz-Suchzeit von 10–15 Minuten auf unter 30 Sekunden.
+                FastAPI, React 19/TypeScript, PostgreSQL, GCP Cloud Run.
+              </p>
+            </li>
+            <li class="mb-4">
+              <strong>SmartWay Design Portal (2025–2026)</strong>
+              <p>
+                Full-Stack-E-Content-Plattform für ein Elektrotechnik-Planungsunternehmen.
+                Content-Store mit Banküberweisung-Zahlungsablauf, Newsletter-System
+                mit Block-Editor für zwei Marken, DSGVO-konformes Admin-Dashboard.
+                React 18/TypeScript, Firebase, Tailwind CSS.
+                <a href="https://www.smartwaydesign.hr/">Live-Seite</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-4">
+          <h4>Beratung &amp; Schulung</h4>
           <ul>
             <li class="mb-4">
               <strong>KI-Beratung im Bankensektor – HPB d.d. (2025)</strong>
               <p>
-                KI-Strategieberatung für die Bankführung—Vorstandsmitglied und Bereichsleiter.
+                Reihe strategischer KI-Workshops für den Vorstand und die
+                Führungsebene der kroatischen Staatsbank — zu Chancen, Risiken und
+                konkreten Anwendungen der KI im Bankwesen.
               </p>
             </li>
             <li class="mb-4">
               <strong>Pharmazeutische KI-Beratung &amp; RAG-PoC – Belupo d.d. (2024–2025)</strong>
               <p>
-                KI-Strategieberatung und Schulung für F&amp;E-Abteilung und Führungskräfte (2025).
-                Zuvor RAG-Chatbot Proof-of-Concept für über 160 Medikamenten-PDFs mit LangGraph,
-                Weaviate Hybrid-Suche, Multi-LLM-Unterstützung (2024).
+                KI-Strategieberatung und Schulung für die F&amp;E-Abteilung und
+                Führungskräfte (2025). Zuvor RAG-Chatbot Proof-of-Concept für über
+                160 Medikamenten-PDFs mit LangGraph, Weaviate Hybrid-Suche,
+                Multi-LLM-Unterstützung (2024).
               </p>
-              <ul class="mt-2">
-                <li><strong>Tech-Stack:</strong> LangGraph State Machine, Weaviate Vektordatenbank mit 6 spezialisierten Collections, Multi-LLM-Unterstützung (Claude, Gemini, GPT-4), Streamlit UI mit Async-Streaming</li>
-              </ul>
             </li>
           </ul>
         </div>
 
         <div class="mt-4">
-          <h4>Full-Stack KI-Anwendungen</h4>
+          <h4>Infrastruktur &amp; Systeme</h4>
           <ul>
             <li class="mb-4">
-              <strong>Baukoordinierungsplattform (Q4 2025)</strong>
+              <strong>Linux-Netzwerkinfrastruktur (2026)</strong>
               <p>
-                Full-Stack-Anwendung zur Ablösung manueller Excel-Workflows für die Kreisverwaltung.
-                Reduzierung der Suchzeit von 10-15 Min. auf &lt;30 Sek. 5-Wochen-Lieferung.
+                Linux-basierte Netzwerkinfrastruktur für zentralisiertes
+                Geräteflotten-Management: automatisiertes Traffic-Routing, sicherer
+                Fernzugriff (VPN) und Zuverlässigkeitsdienste mit automatischem
+                Failover und 24/7-Monitoring.
               </p>
-              <ul class="mt-2">
-                <li><strong>Tech-Stack:</strong> FastAPI, React 19/TypeScript, PostgreSQL 17 mit JSONB, Firebase Auth, GCP Cloud Run</li>
-                <li><strong>Features:</strong> Datenmigration aus mehreren Excel-Quellen, Multi-Format Excel/PDF-Export mit kroatischer Lokalisierung, 9-Tab Detailansicht</li>
-              </ul>
-            </li>
-            <li class="mb-4">
-              <strong>Medizinisches Transkriptionssystem (2025)</strong>
-              <p>
-                Desktop-Anwendung für kroatische medizinische Diktate verschiedener Fachrichtungen.
-                Gemini-KI-Integration, Echtzeit-Transkription mit Auto-Typing, Vorlagensystem.
-              </p>
-              <ul class="mt-2">
-                <li><strong>Tech-Stack:</strong> Python/Tkinter, Google Gemini 2.5 Pro via Vertex AI, Firebase Auth + Cloud Functions, GCP-Deployment</li>
-                <li><strong>Features:</strong> Globale Hotkeys, Optimierung für kroatische medizinische Terminologie, pytest-Tests mit 95% Coverage</li>
-              </ul>
-            </li>
-            <li class="mb-4">
-              <strong>Energieeffizienz-RAG-Plattform – VIREAS (2024–2025)</strong>
-              <p>
-                Agentisches RAG-System für erneuerbare Energien und Energieeffizienzberatung für Bürger,
-                entwickelt für regionale Energieagentur. Enthält Prefect ETL-Pipeline und MCP-Server
-                für Claude Desktop-Integration.
-              </p>
-              <ul class="mt-2">
-                <li><strong>Tech-Stack:</strong> FastAPI + LangGraph, Weaviate Hybrid-Suche, Voyage AI Reranking, Multi-LLM-Unterstützung (Claude, Gemini 2.5, GPT-4, Groq), React 19/Vite Frontend</li>
-                <li><strong>Features:</strong> SSE-Streaming-Chat, Ausschreibungsdokument-Management, Firebase Auth mit RBAC, Nutzungskontingent-System</li>
-                <li>
-                  <a href="https://drive.google.com/file/d/1Caa9N_EfJwVq6Wr9wDMJ3hvaWlBwmOk6/view?usp=sharing">Plattform-Übersicht</a> |
-                  <a href="https://drive.google.com/file/d/1HqYSj1p9U1o78qPcRcNGC2uMC6nDAIKb/view?usp=sharing">Mobile Version</a> |
-                  <a href="https://vireas.rea-sjever.hr/">Live-Seite</a>
-                </li>
-                <h5 class="mt-3">Screenshots:</h5>
-                <div class="certificate-img mt-2">
-                  <img src="assets/image/Kilovatko_initial_screen.jpg" alt="VIREAS Startbildschirm" class="img-fluid certificate-thumbnail" onclick="openModal(this.src)" />
-                  <img src="assets/image/Chat_kilovatko.jpg" alt="VIREAS Chat-Oberfläche" class="img-fluid certificate-thumbnail" onclick="openModal(this.src)" />
-                  <img src="assets/image/Kilovatko_mobile.png" alt="VIREAS Mobile Ansicht" class="img-fluid certificate-thumbnail" onclick="openModal(this.src)" />
-                </div>
-                <h5 class="mt-3">Architektur:</h5>
-                <div class="certificate-img mt-2">
-                  <img src="assets/image/Agentic_RAG_flowchart_de.png" alt="Agentisches RAG Flussdiagramm" class="img-fluid certificate-thumbnail" onclick="openModal(this.src)" />
-                  <img src="assets/image/Pipeline_flowchart_de.png" alt="Pipeline Flussdiagramm" class="img-fluid certificate-thumbnail" onclick="openModal(this.src)" />
-                </div>
-              </ul>
             </li>
           </ul>
         </div>
 
         <div class="mt-4">
-          <h4>KI-Automatisierung &amp; Datenverarbeitung</h4>
-          <ul>
-            <li class="mb-4">
-              <strong>Stücklisten-Extraktionssystem (2025)</strong>
-              <p>
-                Automatisierte Stücklistenextraktion aus deutschsprachigen Fertigungsdokumenten.
-                Reduzierung des 3-4-stündigen manuellen Prozesses auf Minuten.
-              </p>
-              <ul class="mt-2">
-                <li><strong>Tech-Stack:</strong> KI-gestützte Dokumentenextraktion, Python (pandas, openpyxl, reportlab), Multi-Format-Ausgabe (Excel/PDF/JSON)</li>
-                <li><strong>Features:</strong> Hierarchieverarbeitung, Materialaggregation, Standardblechoptimierung, EN-Normen-Compliance-Tracking</li>
-              </ul>
-            </li>
-            <li class="mb-4">
-              <strong>Automatisierte Content-Generierung (2025)</strong>
-              <p>
-                Blog-Automatisierung mit LangGraph 8-Knoten-Workflow + Perplexity-Rechercheintegration.
-                Benutzerdefinierte Vertex AI Fine-Tuning-Pipeline für Gemini. Video-Pipeline für TikTok/Reels mit N8N.
-              </p>
-              <ul class="mt-2">
-                <li><strong>Blog-Pipeline:</strong> Duale Generierungspfade (feinabgestimmtes Gemini / Multi-Agent), KI-gestützte interne Verlinkung, SEO-Metadaten-Generierung</li>
-                <li><strong>Fine-Tuning:</strong> Benutzerdefinierter Vertex AI Supervised Fine-Tuning Workflow</li>
-                <li><strong>Video-Pipeline:</strong> N8N-Orchestrierung, Gemini TTS, Imagen4 Bildgenerierung, Shotstack Videokomposition</li>
-              </ul>
-            </li>
-            <li class="mb-4">
-              <strong>Text-to-SQL für Industrieproduktion (2025)</strong>
-              <p>
-                Natürliche Sprache zu SQL mit LangGraph und Open-Source-LLMs (Ollama).
-                Ermöglicht Betreibern die Abfrage von Chargendaten mittels natürlicher Sprache statt SQL.
-              </p>
-              <ul class="mt-2">
-                <li><strong>Tech-Stack:</strong> LangGraph agentische Workflows, Ollama (Gemma 3 27B, Qwen2.5 Coder 32B), Streamlit UI, SQL Server</li>
-                <li><strong>Features:</strong> 8-Kategorien Query-Klassifizierung, SQL-Sicherheitsvalidierung, Auto-Visualisierung mit Plotly</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <div class="mt-4">
-          <h4>Webseiten</h4>
-          <ul>
-            <li class="mb-4">
-              <strong>SmartWay Design Portal (2025/6)</strong>
-              <p>
-                Full-Stack-E-Content-Plattform für ein Elektrotechnik-Planungsunternehmen.
-                Content-Store mit Banküberweisung-Zahlungsablauf und automatisierter Kaufverfolgung.
-              </p>
-              <ul class="mt-2">
-                <li><strong>Newsletter:</strong> Integrierter Composer mit Block-Editor, Abonnentenverwaltung, CSV-Import, Batch-Versand und automatischer Willkommens-E-Mail — zwei Marken über ein Admin-Panel bedient</li>
-                <li><strong>Admin:</strong> Rollenbasiertes Dashboard, DSGVO-konforme Kontoverwaltung</li>
-                <li><strong>Tech-Stack:</strong> React 18/TypeScript, Firebase (Auth, Firestore, Cloud Functions, Storage), Tailwind CSS, shadcn/ui</li>
-              </ul>
-              <a href="https://www.smartwaydesign.hr/">Live-Seite</a>
-            </li>
-            <li class="mb-3">
-              <strong>techXflow Unternehmenswebsite (2025)</strong> – Mehrsprachige KI-Beratungs-Website.
-              React 19/TypeScript, Tailwind CSS 4, dreisprachig (EN/DE/HR).
-              <a href="https://techxflow.eu">Live-Seite</a>
-            </li>
-          </ul>
+          <a href="https://techxflow.eu/index_de.html" class="btn btn-primary"
+            >Alle Projekte ansehen → techxflow.eu</a
+          >
         </div>
       </section>
 
@@ -274,14 +297,14 @@
     </main>
     <footer class="bg-light">
       <div class="social-icons text-center">
-        <a class="social-icon" href="https://www.techxflow.eu/index_de.html"
+        <a class="social-icon" href="https://mklobucaric.github.io/index_de.html"
           ><i class="fas fa-globe"></i
         ></a>
-        <a href="mailto:mario.klobucaric@gmail.com" class="social-icon"
+        <a href="mailto:info@techxflow.eu" class="social-icon"
           ><i class="fas fa-envelope-square"></i
         ></a>
-        <a href="https://www.github.com/mklobucaric" class="social-icon"
-          ><i class="fab fa-github-square"></i
+        <a class="social-icon" href="https://techxflow.eu/index_de.html" title="techXflow Unternehmensseite"
+          ><i class="fas fa-building"></i
         ></a>
         <a href="https://www.linkedin.com/in/mklobucaric" class="social-icon"
           ><i class="fab fa-linkedin"></i
